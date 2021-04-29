@@ -1,0 +1,158 @@
+1067 [main] INFO  org.zaproxy.zap.DaemonBootstrap - OWASP ZAP 2.10.0 started 15/4/21 17:36:29 with home /home/alumno/.ZAP/
+1126 [main] INFO  org.parosproxy.paros.common.AbstractParam - Setting config api.disablekey = true was null
+1128 [main] INFO  org.parosproxy.paros.common.AbstractParam - Setting config api.incerrordetails = true was null
+1128 [main] INFO  org.parosproxy.paros.common.AbstractParam - Setting config proxy.ip = 0.0.0.0 was null
+1138 [main] INFO  org.parosproxy.paros.network.SSLConnector - Reading supported SSL/TLS protocols...
+1138 [main] INFO  org.parosproxy.paros.network.SSLConnector - Using a SSLEngine...
+1228 [main] INFO  org.parosproxy.paros.network.SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+1231 [main] INFO  org.parosproxy.paros.extension.option.OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+1713 [main] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open start
+1718 [main] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit start
+1719 [main] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit end
+1720 [main] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open end
+1790 [ZAP-daemon] INFO  org.zaproxy.zap.control.ExtensionFactory - Loading extensions
+2806 [ZAP-daemon] INFO  org.zaproxy.zap.control.ExtensionFactory - Installed add-ons: [[id=alertFilters, version=10.0.0], [id=ascanrules, version=38.0.0], [id=bruteforce, version=10.0.0], [id=commonlib, version=1.2.0], [id=diff, version=10.0.0], [id=directorylistv1, version=4.0.0], [id=domxss, version=10.0.0], [id=encoder, version=0.4.0], [id=formhandler, version=3.0.0], [id=fuzz, version=13.1.0], [id=gettingStarted, version=12.0.0], [id=graaljs, version=0.1.0], [id=graphql, version=0.2.0], [id=help, version=11.0.0], [id=hud, version=0.12.0], [id=importurls, version=7.0.0], [id=invoke, version=10.0.0], [id=onlineMenu, version=8.0.0], [id=openapi, version=17.0.0], [id=pscanrules, version=31.0.0], [id=quickstart, version=29.0.0], [id=replacer, version=8.0.0], [id=retire, version=0.6.0], [id=reveal, version=3.0.0], [id=saverawmessage, version=5.0.0], [id=savexmlmessage, version=0.1.0], [id=scripts, version=27.0.0], [id=selenium, version=15.3.0], [id=soap, version=4.0.0], [id=spiderAjax, version=23.2.0], [id=tips, version=7.0.0], [id=webdriverlinux, version=23.0.0], [id=websocket, version=22.0.0], [id=zest, version=33.0.0]]
+3254 [ZAP-daemon] INFO  org.zaproxy.zap.control.ExtensionFactory - Extensions loaded
+3459 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Permitir a ZAP comprobar si existen actualizaciones
+3462 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Opciones de extensión
+3462 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión del menú de edición
+3462 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Provee una API para controlar y acceder a ZAP
+3495 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión del estado de la sesión
+3496 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Informe de la extensión
+3496 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de historia
+3498 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Mostrar campos ocultos y activar campos desactivados
+3499 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Localizar mensajes para las cadenas y expresiones regulares
+3500 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Esto le permite interceptar y configurar solicitudes y respuestas
+3501 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Escáner pasivo
+3545 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Regla de exploración pasiva de los archivos de órdenes
+3545 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Estadísticas de la regla de exploración pasiva
+3546 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+3546 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+3546 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Charset Mismatch
+3546 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: CSP
+3546 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+3547 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+3547 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Loosely Scoped Cookie
+3547 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Cookie Without SameSite Attribute
+3547 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+3548 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Cross-Domain Misconfiguration
+3548 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+3548 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Absence of Anti-CSRF Tokens
+3548 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+3549 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+3549 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Information Disclosure - Debug Error Messages
+3549 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Information Disclosure - Sensitive Information in URL
+3549 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Information Disclosure - Sensitive Information in HTTP Referrer Header
+3550 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Information Disclosure - Suspicious Comments
+3550 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Weak Authentication Method
+3550 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Insecure JSF ViewState
+3550 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+3551 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Timestamp Disclosure
+3551 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Username Hash Found
+3551 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Viewstate
+3551 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: X-AspNet-Version Response Header
+3552 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+3552 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: X-Debug-Token Information Leak
+3552 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header
+3552 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s)
+3553 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: Vulnerable JS Library
+3553 [ZAP-daemon] INFO  org.zaproxy.zap.extension.pscan.ExtensionPassiveScan - loaded passive scan rule: WSDL File Passive Scanner
+3573 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Permite ver y gestionar alertas
+3574 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Escáner activo, basado en Paros active scanner, pero con pruebas adicionales.
+3581 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Araña utilizada para conseguir la URL automáticamente en un sitio
+3586 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Un conjunto de menús emergentes iguales para tareas variadas
+3586 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing La navegación de archivos y directorios se realizó usando la lista obtenida con la herramienta OWASP DirBuster
+3587 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de modificador de solicitud manual
+3587 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Por favor compara 2 sesiones y genera un archivo nuevo de HTML que proporcione o muestre las diferencias
+3587 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+3588 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Maneja anti cross site request forgery (CSRF)
+3590 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Ampliación de la autenticación
+3604 [ZAP-daemon] INFO  org.zaproxy.zap.extension.authentication.ExtensionAuthentication - Loaded authentication method types: [Autenticación basada en formularios de datos, Autenticación HTT/NTLM, Autenticación por el metodo manual, Autenticación basada en el guión, JSON-based Authentication]
+3620 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Crea un certificado SSL dinámico con el cual se pueda permitir que las comunicaciones SSL sean interceptadas sin que el navegador genere alguna advertencia
+3972 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Registra todos los errores o fallas en la pestaña Salida, son se puede en el modo de desarrollo
+3973 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de los usuarios
+3976 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Simplificar y analizar los parámetros FORM y URL, así como las cookies
+3976 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Integración del archivo de órden
+3980 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing La consola de scripting, soporta todos los lenguajes de scripting JRS 223
+4150 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de usuario forzado
+4153 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión la cual se encarga de manejar las sesiones de HTTP
+4159 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Zest es un lenguaje scripting especializado de Mozilla, diseñado específicamente para ser utilizado en herramientas de seguridad
+4372 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing ExtensionDiff
+4372 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización de la tabla de mensajes del panel HTTP
+4373 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Adds support for scriptable encoders to ZAP.
+4373 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la administración de la sesión
+4381 [ZAP-daemon] INFO  org.zaproxy.zap.extension.sessions.ExtensionSessionManagement - Loaded session management method types: [Encargo de sesiones basada en cookies, Trámite de la sesión de autenticación de HTTP, Script-based Session Management]
+4382 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización de la tabla de formularios del panel de HTTP
+4383 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Capturar mensajes de WebSockets con la posibilidad de establecer puntos de interrupción.
+4418 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Le permite que usted importe un archivo que contenga las URL a las que ZAP ingresará y así agregarlas al árbol de sitios
+4419 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Allows you to import a WSDL file containing operations which ZAP will access, adding them to the Sites tree.
+4419 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing La funcionalidad se encuentra relacionada con la interfaz del usuario central.
+4420 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Authorization Extension
+4420 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+4422 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+4428 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Dirige las configuraciones del proxy local
+4429 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Es el responsable de agregar las URL excluidas a nivel global
+4429 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Ingresa un elemento de menú para actualizar el árbol de Sitios
+4429 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Guía de usuario OWASP ZAP
+4429 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Ingrese una URL correspondiente para llamar desde sitios de destino
+4431 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Le permite modificar qué extensiones se cargan cuando se inicia cada vez el ZAP
+4432 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Combinación de la extensión de los paneles HTTP
+4432 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización hexagonal del panel HTTP
+4432 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización de la imagen del panel HTTP
+4432 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Expansión de la visualización de la solicitud del panel HTTP
+4432 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Expansión de la visualización de respuesta del panel HTTP
+4433 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización de la tabla de consultas del panel HTTP
+4433 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Extensión de la visualización del resaltador de la sintaxis del panel HTTP
+4433 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Agrega un soporte para los atajos en el teclado los cuales se pueden modificar para todos los menús ZAP.
+4433 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Configuración de las reglas activas y pasivas
+4436 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Estadísticas
+4437 [ZAP-daemon] INFO  org.zaproxy.zap.extension.stats.ExtensionStats - Start recording in memory stats
+4440 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Custom Pages Definition
+4441 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+4444 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Panel de inicio rápido 
+4447 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Add the option to use the Ajax Spider in the Quick Start scan
+4447 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Launch browsers proxying through ZAP
+4448 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Launch browsers proxying through ZAP
+4449 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Reglas de la exploración pasiva
+4449 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Allows you to inspect and attack GraphQL endpoints.
+4453 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Enlaces en línea
+4453 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Proporciona la base para tipos de mensajes concretos (por ejemplo, HTTP, WebSockets) exponer implementacines fuzzer.
+4455 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Permitir a mensajes de HTTP Fuzz.
+4455 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Reglas del escaner activo DOM XSS
+4490 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing La guía de inicio de ZAP
+4490 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Esta enxtensión permite a un usuario poder modificar los valores que son predeterminados y utilizdos por Arañas de ZAP.
+4492 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Consejos y trucos
+4493 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Allows you to spider and import OpenAPI (Swagger) definitions 
+4514 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+4515 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+4515 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Reglas de Escaneo Activa
+4516 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing ExtensionSaveXMLHttpMessage
+4516 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Filtro para reglas de alerta por contexto
+4518 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Provides the GraalVM JavaScript engine for ZAP scripting.
+4851 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing Heads Up Display
+4904 [ZAP-daemon] INFO  org.parosproxy.paros.extension.ExtensionLoader - Initializing ExtensionHUDlaunch
+4912 [ZAP-daemon] INFO  org.zaproxy.zap.extension.callback.ExtensionCallback - Started callback server on 0.0.0.0:35495
+5149 [ZAP-daemon] INFO  org.zaproxy.zap.DaemonBootstrap - ZAP is now listening on 0.0.0.0:8083
+10262 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit start
+10263 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit end
+10265 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - Database closed
+10436 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open start
+10437 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit start
+10438 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit end
+10439 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open end
+10560 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit start
+10563 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache commit end
+10565 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - Database closed
+10696 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open start
+10698 [ZAP-ProxyThread-2] INFO  hsqldb.db.HSQLDB379AF3DEBD.ENGINE - dataFileCache open end
+10765 [ZAP-ProxyThread-2] INFO  org.parosproxy.paros.control.Control - New session file created: /home/alumno/.ZAP/session/zap-session-0.session
+10854 [ZAP-ProxyThread-3] WARN  org.zaproxy.zap.extension.api.API - Bad request to API endpoint [/xml/context/action/includeInContext/] from [127.0.0.1]:
+org.zaproxy.zap.extension.api.ApiException: does_not_exist
+	at org.zaproxy.zap.utils.ApiUtils.getContextByName(ApiUtils.java:190) ~[zap-2.10.0.jar:2.10.0]
+	at org.zaproxy.zap.utils.ApiUtils.getContextByName(ApiUtils.java:175) ~[zap-2.10.0.jar:2.10.0]
+	at org.zaproxy.zap.extension.api.ContextAPI.getContext(ContextAPI.java:451) ~[zap-2.10.0.jar:2.10.0]
+	at org.zaproxy.zap.extension.api.ContextAPI.handleApiAction(ContextAPI.java:175) ~[zap-2.10.0.jar:2.10.0]
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:507) [zap-2.10.0.jar:2.10.0]
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:497) [zap-2.10.0.jar:2.10.0]
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:333) [zap-2.10.0.jar:2.10.0]
+	at java.lang.Thread.run(Thread.java:834) [?:?]

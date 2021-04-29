@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>stefan-webApp</groupId>
+  <artifactId>simple-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>simple-webapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>simple-webapp</finalName>
+    <pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>br.com.softplan.security.zap</groupId>
+				<artifactId>zap-maven-plugin</artifactId>
+				<version>1.2.1-0</version>
+				<configuration>
+					<!-- Configuration parameters -->
+					<targetUrl>localhost:8080/simple-webapp</targetUrl>
+					<context>Contexto predeterminado</context>
+					<zapPath>/home/alumno/Escritorio/ZAP_2.10.0/</zapPath>
+					<zapPort>8083</zapPort>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>verify</phase>
+						<goals><goal>analyze</goal></goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.12.v20180830</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+		</plugins>
+	</pluginManagement>
+	
+  </build>
+</project>
